@@ -1,2 +1,2 @@
 # client-go
-Go client for wacker.
+Go client for [wacker](https://github.com/iawia002/wacker).
