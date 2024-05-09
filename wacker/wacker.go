@@ -27,13 +27,13 @@ type (
 )
 
 const (
-	PROGRAM_STATUS_RUNNING  uint32 = 0
-	PROGRAM_STATUS_FINISHED uint32 = 1
-	PROGRAM_STATUS_ERROR    uint32 = 2
-	PROGRAM_STATUS_STOPPED  uint32 = 3
+	ProgramStatusRunning  uint32 = 0
+	ProgramStatusFinished uint32 = 1
+	ProgramStatusError    uint32 = 2
+	ProgramStatusStopped  uint32 = 3
 
-	PROGRAM_TYPE_WASI uint32 = 0
-	PROGRAM_TYPE_HTTP uint32 = 1
+	ProgramTypeWASI uint32 = 0
+	ProgramTypeHTTP uint32 = 1
 )
 
 type Options struct {

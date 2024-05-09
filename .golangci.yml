@@ -1,0 +1,23 @@
+run:
+  timeout: 5m
+  go: 1.22
+
+linters:
+  enable:
+    - revive
+    - goconst
+    - gofmt
+    - goimports
+    - misspell
+    - unparam
+  disable:
+    - deadcode
+
+issues:
+  exclude-use-default: false
+  exclude-rules:
+    - path: _test.go
+      linters:
+        - errcheck
+  exclude:
+    - (comment on exported (method|function|type|const)|should have( a package)? comment|comment should be of the form)
