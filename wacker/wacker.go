@@ -32,7 +32,7 @@ const (
 	ProgramStatusError    uint32 = 2
 	ProgramStatusStopped  uint32 = 3
 
-	ProgramTypeWASI uint32 = 0
+	ProgramTypeCLI  uint32 = 0
 	ProgramTypeHTTP uint32 = 1
 )
 
